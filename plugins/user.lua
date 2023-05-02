@@ -9,4 +9,8 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "almo7aya/openingh.nvim",
+    event = "User AstroGitFile",
+  },
 }
