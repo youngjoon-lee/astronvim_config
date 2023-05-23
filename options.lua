@@ -11,6 +11,7 @@ return {
     readonly = false, -- sets vim.opt.readonly
     mouse = "", -- disable mouse (+ scrolling)
     termguicolors = true, -- for the right color even in tmux
+    wrap = true, -- wrapping text (long lines)
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
