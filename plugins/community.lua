@@ -8,4 +8,5 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.git.openingh-nvim" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.go" },
 }
