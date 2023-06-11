@@ -69,6 +69,14 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+    vim.api.nvim_create_autocmd("BufNewFile", {
+      pattern = "*.go",
+      command = "setlocal noexpandtab tabstop=4 shiftwidth=4"
+    })
+    vim.api.nvim_create_autocmd("BufRead", {
+      pattern = "*.go",
+      command = "setlocal noexpandtab tabstop=4 shiftwidth=4"
+    })
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {

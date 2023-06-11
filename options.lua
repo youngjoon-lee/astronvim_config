@@ -12,8 +12,6 @@ return {
     mouse = "", -- disable mouse (+ scrolling)
     termguicolors = true, -- for the right color even in tmux
     wrap = true, -- wrapping text (long lines)
-    tabstop = 4,
-    shiftwidth = 4,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
