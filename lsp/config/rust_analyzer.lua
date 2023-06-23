@@ -8,7 +8,7 @@ return {
           "--workspace",
           "--message-format=json",
           "--all-targets",
-          "--all-features",
+          -- "--all-features",
         },
       },
       -- procMacro = {
