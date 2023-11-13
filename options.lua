@@ -4,7 +4,8 @@ return {
     -- set to true or false etc.
     relativenumber = false, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
-    spell = false, -- sets vim.opt.spell
+    spell = true, -- sets vim.opt.spell
+    spelllang = "en_us",
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     ignorecase = false, -- sets vim.opt.ignorecase
