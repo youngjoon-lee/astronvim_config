@@ -10,4 +10,5 @@ return {
   { import = "astrocommunity.git.octo-nvim" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.python" },
 }
