@@ -11,5 +11,6 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.python-ruff" },
+  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 }
