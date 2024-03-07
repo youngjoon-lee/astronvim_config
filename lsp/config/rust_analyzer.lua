@@ -8,7 +8,12 @@ return {
           "--workspace",
           "--message-format=json",
           "--all-targets",
-          -- "--all-features",
+          "--features=libp2p"
+        },
+      },
+      cargo = {
+        features = {
+          "libp2p"
         },
       },
       -- procMacro = {
