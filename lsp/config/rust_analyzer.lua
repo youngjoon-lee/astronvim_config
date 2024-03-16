@@ -8,12 +8,12 @@ return {
           "--workspace",
           "--message-format=json",
           "--all-targets",
-          "--features=mixnet"
+          -- "--features=mixnet"
         },
       },
       cargo = {
         features = {
-          "mixnet"
+          -- "mixnet"
         },
       },
       diagnostics = {
