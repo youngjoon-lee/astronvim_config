@@ -25,10 +25,4 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
-  i= {
-    -- other insert mode mappings...
-
-    -- copilot
-    ["<C-j>"] = { "copilot#Accept('<CR>')", expr = true, silent = true },
-  },
 }
