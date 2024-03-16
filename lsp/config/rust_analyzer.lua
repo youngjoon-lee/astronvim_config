@@ -8,12 +8,17 @@ return {
           "--workspace",
           "--message-format=json",
           "--all-targets",
-          "--features=libp2p"
+          "--features=mixnet"
         },
       },
       cargo = {
         features = {
-          "libp2p"
+          "mixnet"
+        },
+      },
+      diagnostics = {
+        disabled = {
+          "unresolved-proc-macro",
         },
       },
       -- procMacro = {
